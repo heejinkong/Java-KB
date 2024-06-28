@@ -1,3 +1,5 @@
+package obj;
+
 import java.util.Scanner;
 
 public class boj1463_bottomUp_hj {

@@ -1,3 +1,5 @@
+package obj;
+
 import java.util.Scanner;
 
 //재귀
