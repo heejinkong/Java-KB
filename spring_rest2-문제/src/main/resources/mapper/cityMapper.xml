@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.multi.spring2.city.mapper.CityMapper">
+
+    <select id="all"
+            resultType="com.multi.spring2.city.domain.CityVO">
+        SELECT * FROM city;
+    </select>
+
+
+    <select id="one"
+            parameterType="int"
+            resultType="com.multi.spring2.city.domain.CityVO">
+        SELECT * FROM city
+        where id = #{id}
+    </select>
+</mapper>

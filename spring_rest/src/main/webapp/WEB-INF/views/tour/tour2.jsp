@@ -29,7 +29,7 @@
             .then(function (response) {
                 // 데이터를 받아서 result div에 출력
                 var tour = response.data;
-                console.log(tour)
+                console.log(tours)
                 var resultDiv = document.getElementById('result');
 
                 // 기존 내용을 지우기
@@ -55,6 +55,7 @@
             .then(function (response) {
                 // 데이터를 받아서 result div에 출력
                 var tours = response.data;
+                console.log(tours)
                 var resultDiv = document.getElementById('result');
 
                 // 기존 내용을 지우기
