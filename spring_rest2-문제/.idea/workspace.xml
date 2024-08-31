@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2378911-511b-4c5c-8ffb-b21cabdf4173" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring_rest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/city/controller/CityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/city/dao/CityDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/city/domain/CityVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/city/mapper/CityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/city/service/CityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/config/CustomDBAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/config/WebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/multi/spring2/controller/RootController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/cityMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/city/city.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/out.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/board.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/kim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/member.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/park.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/rain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/song.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/sun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_rest/src/main/webapp/WEB-INF/views/tour/tour2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_rest/src/main/webapp/WEB-INF/views/tour/tour2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_rest/src/main/webapp/WEB-INF/views/tour2/tour2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_rest/src/main/webapp/WEB-INF/views/tour2/tour2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/city/city.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/city/city.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725091748997</updated>
       <workItem from="1725091750140" duration="19000" />
-      <workItem from="1725091797785" duration="1614000" />
+      <workItem from="1725091797785" duration="6465000" />
     </task>
     <servers />
   </component>
