@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.multi.spring2.aop.mapper.AOPMapper">
+
+    <insert id="insertMember" parameterType="MemberVO">
+        insert into member
+        values
+            (#{id}, #{pw}, #{name}, #{tel})
+    </insert>
+    <insert id="insertBoard" parameterType="BoardVO">
+        insert into board
+        values
+            (null, #{title}, #{content}, #{writer})
+    </insert>
+
+</mapper>
