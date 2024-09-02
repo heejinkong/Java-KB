@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <!--
+    `true`로 설정되면, 데이터베이스 컬럼 이름이 언더스코어(`_`)로 구분된 경우,
+    MyBatis는 이를 자동으로 카멜 케이스(camelCase)로 변환하여 매핑
+
+    예를 들어, 데이터베이스 컬럼 이름이 `user_name`이라면,
+    MyBatis는 이를 자동으로 Java 객체의 `userName` 필드에 매핑
+    ** SQL 쿼리에서 별도로 매핑을 설정하지 않아도 Java 객체와 데이터베이스 컬럼 간의 매핑이 간단해짐.
+    -->
+
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+    </settings>
+
+    <typeAliases>
+        <package name="org.scoula.security.account.domain" />
+    </typeAliases>
+
+</configuration>
