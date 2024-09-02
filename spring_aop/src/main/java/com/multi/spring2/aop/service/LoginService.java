@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Service
 @Transactional
 @RequiredArgsConstructor
-public class LoginService {
+public class LoginServi e {
 
     private final LoginDao loginDao;
 
