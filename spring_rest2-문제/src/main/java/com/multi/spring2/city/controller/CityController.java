@@ -13,7 +13,6 @@ import java.util.List;
 @Controller
 @RequestMapping("/city")
 public class CityController {
-
     private final CityService cityService;
 
     @Autowired
@@ -24,7 +23,7 @@ public class CityController {
     @GetMapping
     public ModelAndView tour() {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("city/city");
+        mav.setViewName("city/tour");
         return mav;
     }
 
